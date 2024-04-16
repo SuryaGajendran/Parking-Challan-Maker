@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #mydiv{
+            
+            padding: 20px 50px;
+            border: 5px dashed black;
+            display: inline-block;
+            width: 250px;
+        }
+        table{
+            border: 1px solid black;
+        }
+        th{
+            border: 1px solid black;
+        }
+        #mydiv2{ 
+            padding: 10px;
+            /* display: inline-block;
+            width: 350px;
+            margin-top: -300px; */
+            
+        }
+    </style>
+    
+</head>
+<body>
+
+    <div id="mydiv">
+        <h2> <u>VR PARKING SLOT</u></h2>
+        name: <input type="text" id="name">
+        <br><br>
+        bike no.: <input type="text" id="bikeno">
+        <br><br>
+        contact: <input type="tel" id="contact">
+        <br><br>
+        checkin: <input type="time" id="checkin">
+        <br><br>
+        checkout: <input type="time" id="checkout">
+        <br><br>
+        <button id="sub">submit</button>
+    </div>
+
+    <div id="mydiv2">
+        <table>
+            <thead>
+                <tr>
+                    <th>sno.</th>
+                    <th>name</th>
+                    <th>bike no.</th>
+                    <th>contact</th>
+                    <th>checkin</th>
+                    <th>checkout</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+
+            </tbody>
+        </table>
+
+    </div>
+
+
+    <script src="../js/parking.js"></script>
+
+    
+</body>
+</html>
